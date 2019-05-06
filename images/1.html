@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.2.1.1 -->
+<html class="translated-ltr" dir="ltr" lang="uk" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Введення в Інтернет промов</title>
+    <link rel="stylesheet" type="text/css" href="./1_files/course.css">
+    <link rel="stylesheet" type="text/css" href="./1_files/course(1).css">
+    <script async="" src="./1_files/analytics.js"></script><script type="text/javascript" src="./1_files/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="./1_files/permission.js"></script>
+        <script type="text/javascript" src="./1_files/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="./1_files/jquery.tabguard1.0.js"></script>
+    <script type="text/javascript" src="./1_files/netacad.js"></script>
+    <script type="text/javascript" src="./1_files/course.js"></script>
+    <script>
+
+      netacad.settings.init("I2IoT20");
+
+      netacad.lang.set("Module", "Глава #");
+      netacad.lang.set("Section", "Раздел #");
+      netacad.lang.set("Topic", "Тема #");
+      netacad.lang.set("Page", "Страница #");
+      netacad.lang.set("Figure", "Рисунок #");
+      netacad.lang.set("Figures", "Рисунки");
+      netacad.lang.set("NoItems", "Нет элементов.");
+      netacad.lang.set("NoVideo", "There are no videos available in this course.");
+      netacad.lang.set("NoPT", "There are no activities in this course that require Cisco Packet Tracer.");
+      netacad.lang.set("NoLab", "There are no lab activities in this course.");
+      netacad.lang.set("NoBookmarks", "Нет закладок.");
+      netacad.lang.set("NoRecentPages", "Нет недавно закрытых страниц.");
+      netacad.lang.set("NoSearchResults", "По вашему запросу ничего не найдено.");
+      netacad.lang.set("EnterSearchTerms", "Задайте критерии поиска…");
+      netacad.lang.set("PageThumbnail", "Эскиз страницы №");
+      netacad.lang.set("BackgroundImage", "Фоновое изображение");
+
+      var course = function() {
+        var c, m, s, t, p;
+        c = new netacad.models.Course("I2IoT20", "ru", "Введение в Интернет вещей");
+        m = new netacad.models.Module("0", "Знакомство с курсом");
+        s = new netacad.models.Section("0.0", "Добро пожаловать на курс I2IoT");
+        t = new netacad.models.Topic("0.0.1", "Информация для учащихся");
+        p = new netacad.models.Page("0.0.1.1", "Добро пожаловать!", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("0.0.1.2", "Мировое сообщество", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("0.0.1.3", "Больше чем просто информация", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("0.0.1.4", "Методика преподавания", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("0.0.1.5", "Общие сведения о курсе", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("1", "Все подключено");
+        s = new netacad.models.Section("1.0", "Введение");
+        t = new netacad.models.Topic("1.0.1", "Введение.");
+        p = new netacad.models.Page("1.0.1.1", "Введение", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("1.1", "Цифровая трансформация");
+        t = new netacad.models.Topic("1.1.1", "Цифровизация преобразует бизнес");
+        p = new netacad.models.Page("1.1.1.1", "Развитие цифровой трансформации", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.1.2", "Лабораторная работа. Сколько времени вы проводите в сети?", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.1.3", "Определите свое поколение", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.1.4", "Влияние цифровой трансформации на бизнес", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.1.5", "Могут ли интеллектуальные устройства думать?", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.1.6", "Проверочная работа по теме", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.1.7", "Введение в Packet Tracer", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.1.8", "Packet Tracer. Развертывание и подключение устройств", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("1.1.2", "Глобальное подключение через сети");
+        p = new netacad.models.Page("1.1.2.1", "Сеть — это основа", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.2", "Типы сетей", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.3", "Упражнение. Сетевые термины", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.4", "Лабораторная работа. Составление карты сети Интернет", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.5", "Packet Tracer. Создание простой сети с помощью Packet Tracer", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("1.2", "Устройства, подключенные к Интернету вещей");
+        t = new netacad.models.Topic("1.2.1", "Рост числа устройств IoT");
+        p = new netacad.models.Page("1.2.1.1", "Что такое Интернет вещей?", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.2", " Лабораторная работа. Придумайте новый интеллектуальный датчик.", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.3", "Каковы преимущества подключения устройств IoT?", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.4", "Лабораторная работа. Преимущества и недостатки устройств IoT", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.5", "Каким образом устройства IoT подключаются к сети?", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.6", "Изучение умного дома", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.7", "Проверочная работа по теме", "Activity", "Flash DnD");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("1.2.2", "Подключение устройств IoT к сети");
+        p = new netacad.models.Page("1.2.2.1", "Packet Tracer. Добавление устройств IoT в умный дом", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.2.2", "Доступ к сети Интернета вещей и ее мониторинг", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.2.3", "Packet Tracer. Подключение и мониторинг устройств IoT", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.2.4", "Будущее сетей", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("1.3", "Обзор");
+        t = new netacad.models.Topic("1.3.1", "Обзор");
+        p = new netacad.models.Page("1.3.1.1", "Обзор", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("2", "Все вокруг становится программируемым");
+        s = new netacad.models.Section("2.0", "Введение");
+        t = new netacad.models.Topic("2.0.1", "Добро пожаловать!");
+        p = new netacad.models.Page("2.0.1.1", "Глава 2. Все вокруг становится программируемым", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("2.1", "Применяем основные методы программирования для поддержки устройств IoT");
+        t = new netacad.models.Topic("2.1.1", "Основные концепции программирования");
+        p = new netacad.models.Page("2.1.1.1", "Следуйте блок-схеме.", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.1.2", "Блок-схемы", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.1.3", "Системное ПО, прикладные программы и языки программирования", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.1.4", "Переменные", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.1.5", "Базовые структуры программы", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.1.6", "Упражнение. Основные понятия языков программирования", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.1.7", "Упражнение. Определение терминов программирования", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.1.8", "Лабораторная работа. Создание блок-схемы процесса", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.1.9", " Проверочная работа по теме. Сопоставьте элемент блок-схемы с задачей.", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("2.1.2", "Основы программирования с использованием Blockly");
+        p = new netacad.models.Page("2.1.2.1", "Что такое Blockly?", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.2.2", "Игры Blockly", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.2.3", "Packet Tracer. Мигание светодиодным индикатором с помощью Blockly", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("2.1.3", "Программирование на Python");
+        p = new netacad.models.Page("2.1.3.1", "Что такое Python?", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.3.2", "Интерпретатор Python", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.3.3", "Переменные и основные инструкции в Python", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.3.4", "Полезные функции и типы данных в Python", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.3.5", "Программные структуры в языке Python", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.3.6", "Лабораторная работа. Настройка виртуализированной серверной среды", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.3.7", "Лабораторная работа. Основы программирования на Python", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.3.8", "Лабораторная работа. Создание простой игры в среде Python IDLE", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("2.2", "Создание прототипа идеи");
+        t = new netacad.models.Topic("2.2.1", "Что такое создание прототипа?");
+        p = new netacad.models.Page("2.2.1.1", "Определение создания прототипа", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.1.2", "Как создать прототип", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("2.2.2", "Ресурсы для создания прототипа");
+        p = new netacad.models.Page("2.2.2.1", "Физические материалы", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.2.2", "Наборы для изучения схемотехники", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.2.3", "Ресурсы программирования", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.2.4", "Сообщества для изобретателей и предпринимателей", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.2.5", "Дополнительная лабораторная работа. Настройка PL-App с помощью Raspberry Pi", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.2.6", "Дополнительная лабораторная работа. Использование PL-App Notebook", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.2.7", "Дополнительная лабораторная работа. Мигание светодиодным индикатором с помощью Raspberry Pi и PL-App", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.2.8", "Дополнительная лабораторная работа. Знакомство с Arduino", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("2.3", "Обзор");
+        t = new netacad.models.Topic("2.3.1", "Обзор");
+        p = new netacad.models.Page("2.3.1.1", "Обзор", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("3", "Все создает данные");
+        s = new netacad.models.Section("3.0", "Введение");
+        t = new netacad.models.Topic("3.0.1", "Введение.");
+        p = new netacad.models.Page("3.0.1.1", "Введение", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("3.1", "Большие данные");
+        t = new netacad.models.Topic("3.1.1", "Что такое большие данные?");
+        p = new netacad.models.Page("3.1.1.1", "Что такое большие данные?", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.1.2", "Упражнение. Создает ли компания большие данные?", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.1.3", "Упражнение. Объем, скорость, разнообразие", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.1.4", "Большие наборы данных", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.1.5", "Лабораторная работа. Изучение большого набора данных", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.1.6", "Проверка темы", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("3.1.2", "Где хранятся большие данные?");
+        p = new netacad.models.Page("3.1.2.1", "Какие проблемы связаны с большими данными?", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.2.2", "Где можно хранить большие данные?", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.2.3", "Облако и облачные вычисления", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.2.4", "Распределенная обработка", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.2.5", "Проверка темы", "Activity");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("3.1.3", "Поддержка бизнеса с помощью больших данных");
+        p = new netacad.models.Page("3.1.3.1", "Зачем предприятиям анализировать данные?", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.3.2", "Источники информации", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.3.3", "Визуализация данных", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.3.4", "Типы диаграмм", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.3.5", "Упражнение. Изучение проанализированных данных", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.3.6", "Анализ больших данных для эффективного использования в бизнесе", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.3.7", "Лабораторная работа. Использование Excel для прогнозирования", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.3.8", "Проверочная работа по теме. Перетащите слова", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("3.2", "Обзор");
+        t = new netacad.models.Topic("3.2.1", "Обзор");
+        p = new netacad.models.Page("3.2.1.1", "Обзор", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("4", "Все можно автоматизировать");
+        s = new netacad.models.Section("4.0", "Введение");
+        t = new netacad.models.Topic("4.0.1", "Добро пожаловать!");
+        p = new netacad.models.Page("4.0.1.1", "Глава 4. Все можно автоматизировать", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("4.1", "Что может быть автоматизировано?");
+        t = new netacad.models.Topic("4.1.1", "Автоматизация");
+        p = new netacad.models.Page("4.1.1.1", "Что такое автоматизация?", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.1.2", "Каким образом используется автоматизация?", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.1.3", "Лабораторная работа. Автоматизация повседневных событий", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.1.4", "Когда вещи начинают думать", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.1.5", "Упражнение. Автоматизировать или не автоматизировать", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.1.6", "Packet Tracer. Знакомство с умным домом", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.1.7", "Проверка темы", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("4.1.2", "Искусственный интеллект (ИИ) и машинное обучение (МО)");
+        p = new netacad.models.Page("4.1.2.1", "Что такое искусственный интеллект и машинное обучение?", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.2.2", "МО в Интернете вещей", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.2.3", "Лабораторная работа. Разработка прототипа приложения ИИ", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.2.4", "Проверка темы", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("4.1.3", "Сеть на основе намерения");
+        p = new netacad.models.Page("4.1.3.1", "Что такое сеть на основе намерений (IBN)?", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.3.2", "Каким образом связаны МО, ИИ и IBN?", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.3.3", "Варианты использования сетей на основе намерений", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.3.4", "Лабораторная работа. Изучение сетей, управляемых на основе намерений (IBN)", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.3.5", "Проверка темы", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("4.2", "Обзор");
+        t = new netacad.models.Topic("4.2.1", "Обзор");
+        p = new netacad.models.Page("4.2.1.1", "Обзор", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("5", "Все должно быть защищено");
+        s = new netacad.models.Section("5.0", "Введение");
+        t = new netacad.models.Topic("5.0.1", "Добро пожаловать!");
+        p = new netacad.models.Page("5.0.1.1", "Глава 5. Все должно быть защищено", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("5.1", "Информационная безопасность в оцифрованном мире");
+        t = new netacad.models.Topic("5.1.1", "Почему так важна информационная безопасность?");
+        p = new netacad.models.Page("5.1.1.1", "Типы данных", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.1.2", "Лабораторная работа. Типы данных", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.1.3", "Кому нужны наши данные?  ", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.1.4", "Данные в чужих руках", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.1.5", "Лабораторная работа. Идентификация в Интернете", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("5.1.2", "Защита корпоративной среды");
+        p = new netacad.models.Page("5.1.2.1", "Практические рекомендации по обеспечению безопасности", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.2.2", "Физическая безопасность", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.2.3", "Проблемы обеспечения безопасности устройств IoT", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.2.4", "Безопасное использование Wi-Fi", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.2.5", "Защита устройств", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.2.6", "Packet Tracer. Настройка безопасности беспроводной сети   ", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.2.7", "Проверка темы", "Activity", "Other", "Flash-DnD");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("5.1.3", "Защита личных данных и устройств");
+        p = new netacad.models.Page("5.1.3.1", "Как защитить личные данные", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.3.2", "Упражнение: надежные пароли", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.3.3", "Умные дома", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.3.4", "Общественные точки доступа", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.3.5", "Настройка VPN на смартфонах", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.3.6", "Лабораторная работа. Обнаружение своего собственного рискованного поведения в сети", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("5.2", "Обзор");
+        t = new netacad.models.Topic("5.2.1", "Обзор");
+        p = new netacad.models.Page("5.2.1.1", "Обзор", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("6", "Возможности для обучения и бизнеса");
+        s = new netacad.models.Section("6.0", "Введение");
+        t = new netacad.models.Topic("6.0.1", "Добро пожаловать!");
+        p = new netacad.models.Page("6.0.1.1", "Глава 6. Возможности для обучения и бизнеса", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("6.1", "Какими могут быть мои следующие шаги?");
+        t = new netacad.models.Topic("6.1.1", "Возможности и проблемы в цифровом мире");
+        p = new netacad.models.Page("6.1.1.1", "Станьте информированным потребителем", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.2", "Проблемы в оцифрованном мире", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.3", "Меняющийся рынок труда", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.4", "Требуются предприниматели!", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.5", "Не переставайте учиться", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("6.1.2", "Возможности обучения и профессионального роста");
+        p = new netacad.models.Page("6.1.2.1", "Сетевая академия Cisco", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.2", "Учебная программа Сетевой академии", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.3", "Сообщества на основе интересов", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.4", "Отраслевые сертификации", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.5", "Дополнительные образовательные материалы", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.6", "Лабораторная работа. Вакансии и возможности обучения, связанные с Интернетом вещей", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("6.2", "Обзор");
+        t = new netacad.models.Topic("6.2.1", "Обзор");
+        p = new netacad.models.Page("6.2.1.1", "Обзор", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        return c;
+      }();
+
+    </script>
+  <link type="text/css" rel="stylesheet" charset="UTF-8" href="./1_files/translateelement.css"></head>
+  <body aria-live="polite" class="bg-8" style="min-width: 1004px; min-height: 602px;">
+    <div id="login" role="document" aria-hidden="true"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Для отримання доступу до цього курсу увійдіть в систему </font></font><a href="http://netacad.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">netacad.com</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> .</font></font></div>
+    <div id="splash" role="document" aria-hidden="true" class="">
+      <div class="logo" title="Cisco Systems, Inc."></div>
+      <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Введення в Інтернет речей</font></font></h1>
+      <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Клацніть будь-яке зображення, щоб приступити до роботи.</font></font></p>
+      <ul>
+        <li>
+          <div class="bg-0">
+            <input id="bg-0" type="image" src="./1_files/bg-0-S.jpg" alt="Фонове зображення 0" aria-label="Фоновое изображение 0">
+            <label id="bg-0-text" for="bg-0"></label>
+          </div>
+        </li>
+        <li>
+          <div class="bg-1">
+            <input id="bg-1" type="image" src="./1_files/bg-1-S.jpg" alt="Фонове зображення 1" aria-label="Фоновое изображение 1">
+            <label id="bg-1-text" for="bg-1"></label>
+          </div>
+        </li>
+        <li>
+          <div class="bg-2">
+            <input id="bg-2" type="image" src="./1_files/bg-2-S.jpg" alt="Фонове зображення 2" aria-label="Фоновое изображение 2">
+            <label id="bg-2-text" for="bg-2"></label>
+          </div>
+        </li>
+        <li>
+          <div class="bg-3">
+            <input id="bg-3" type="image" src="./1_files/bg-3-S.jpg" alt="Фонове зображення 3" aria-label="Фоновое изображение 3">
+            <label id="bg-3-text" for="bg-3"></label>
+          </div>
+        </li>
+        <li>
+          <div class="bg-4">
+            <input id="bg-4" type="image" src="./1_files/bg-4-S.jpg" alt="Фонове зображення 4" aria-label="Фоновое изображение 4">
+            <label id="bg-4-text" for="bg-4"></label>
+          </div>
+        </li>
+        <li>
+          <div class="bg-5">
+            <input id="bg-5" type="image" src="./1_files/bg-5-S.jpg" alt="Фонове зображення 5" aria-label="Фоновое изображение 5">
+            <label id="bg-5-text" for="bg-5"></label>
+          </div>
+        </li>
+        <li>
+          <div class="bg-6">
+            <input id="bg-6" type="image" src="./1_files/bg-6-S.jpg" alt="Фонове зображення 6" aria-label="Фоновое изображение 6">
+            <label id="bg-6-text" for="bg-6"></label>
+          </div>
+        </li>
+        <li>
+          <div class="bg-7">
+            <input id="bg-7" type="image" src="./1_files/bg-7-S.jpg" alt="Фонове зображення 7" aria-label="Фоновое изображение 7">
+            <label id="bg-7-text" for="bg-7"></label>
+          </div>
+        </li>
+        <li>
+          <div class="bg-8">
+            <input id="bg-8" type="image" src="./1_files/bg-8-S.jpg" alt="Фонове зображення 8" aria-label="Фоновое изображение 8">
+            <label id="bg-8-text" for="bg-8"></label>
+          </div>
+        </li>
+        <li>
+          <div class="bg-9">
+            <input id="bg-9" type="image" src="./1_files/bg-9-S.jpg" alt="Фонове зображення 9" aria-label="Фоновое изображение 9">
+            <label id="bg-9-text" for="bg-9"></label>
+          </div>
+        </li>
+        <li>
+          <div class="bg-10">
+            <input id="bg-10" type="image" src="./1_files/bg-10-S.jpg" alt="Фонове зображення 10" aria-label="Фоновое изображение 10">
+            <label id="bg-10-text" for="bg-10"></label>
+          </div>
+        </li>
+        <li>
+          <div class="bg-11">
+            <input id="bg-11" type="image" src="./1_files/bg-11-S.jpg" alt="Фонове зображення 11" aria-label="Фоновое изображение 11">
+            <label id="bg-11-text" for="bg-11"></label>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div id="main" role="document" aria-hidden="false">
+      <div id="header">
+        <div class="logo" title="Cisco Systems, Inc."></div>
+        <h1><a id="course-title" href=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Введення в Інтернет речей</font></font></a></h1>
+      </div>
+      <div id="map" role="navigation" style="position: absolute; left: 178px; width: 1004px;">
+        <div class="map-container" id="map-modules" aria-live="polite">
+          <div class="scroll-pane active">
+            <button type="button" class="scroll-pane-up-button" title="Прокручувати вгору" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокручувати вгору</font></font></button>
+            <button type="button" class="scroll-pane-down-button" title="Прокрутити вниз" aria-hidden="true"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокрутити вниз</font></font></button>
+            <div class="scroll-pane-content" tabindex="-1"><ul class="items"><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#0" class="Module"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">глава 0</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Знайомство з курсом</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#1" class="Module"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Глава 1</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">все підключено</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2" class="Module selected"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">глава 2</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Все навколо стає програмованим</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#3" class="Module"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">глава 3</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Всі створює дані</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#4" class="Module"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">глава 4</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Все можна автоматизувати</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#5" class="Module"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">глава 5</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Все повинно бути захищено</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#6" class="Module"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">глава 6</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Можливості для навчання і бізнесу</font></font></div></a></li></ul></div>
+          </div>
+        </div>
+        <div class="map-container" id="map-sections" aria-live="polite">
+          <div class="scroll-pane">
+            <button type="button" class="scroll-pane-up-button" title="Прокручувати вгору" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокручувати вгору</font></font></button>
+            <button type="button" class="scroll-pane-down-button" title="Прокрутити вниз" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокрутити вниз</font></font></button>
+            <div class="scroll-pane-content" tabindex="-1"><ul class="items"><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.0" class="Section"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">розділ 2.0</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вступ</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.1" class="Section"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">розділ 2.1</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Застосовуємо основні методи програмування для підтримки пристроїв IoT</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.2" class="Section selected"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">розділ 2.2</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Створення прототипу ідеї</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.3" class="Section"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">розділ 2.3</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">огляд</font></font></div></a></li></ul></div>
+          </div>
+        </div>
+        <div class="map-container" id="map-topics" aria-live="polite">
+          <div class="scroll-pane">
+            <button type="button" class="scroll-pane-up-button" title="Прокручувати вгору" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокручувати вгору</font></font></button>
+            <button type="button" class="scroll-pane-down-button" title="Прокрутити вниз" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокрутити вниз</font></font></button>
+            <div class="scroll-pane-content" tabindex="-1"><ul class="items"><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.2.1" class="Topic selected"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Тема 2.2.1</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Що таке створення прототипу?</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.2.2" class="Topic"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Тема 2.2.2</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ресурси для створення прототипу</font></font></div></a></li></ul></div>
+          </div>
+        </div>
+        <div class="map-container" id="map-pages" aria-live="polite">
+          <div class="scroll-pane">
+            <button type="button" class="scroll-pane-up-button" title="Прокручувати вгору" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокручувати вгору</font></font></button>
+            <button type="button" class="scroll-pane-down-button" title="Прокрутити вниз" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокрутити вниз</font></font></button>
+            <div class="scroll-pane-content" tabindex="-1"><ul class="items"><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.2.1.1" class="Page selected"><img class="item-thumb" src="./1_files/media_2.2.1.1_thumb.jpg" role="presentation" alt="" aria-hidden="true"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">сторінка 2.2.1.1</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Визначення створення прототипу</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.2.1.2" class="Page"><img class="item-thumb" src="./1_files/media_2.2.1.2_thumb.jpg" role="presentation" alt="" aria-hidden="true"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">сторінка 2.2.1.2</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Як створити прототип</font></font></div></a></li></ul></div>
+          </div>
+        </div>
+      </div>
+      <div id="content" style="position: absolute; left: 178px; top: 2px; width: 1004px; height: 602px;">
+        <div id="container" class="active">
+          <div id="page-header">
+            <nav class="breadcrumbs" aria-label="breadcumbs">
+              <ul>
+                <li aria-level="1">
+                  <a id="breadcrumbs-module" href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2">
+                    <span id="breadcrumbs-module-li" class="breadcrumbs-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Глава 2 </font></font></span>
+                    <span id="breadcrumbs-module-title" class="breadcrumbs-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Все навколо стає програмованим</font></font></span>
+                  </a>
+                </li>
+                <li aria-level="2">
+                  <a id="breadcrumbs-section" href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.2">
+                    <span id="breadcrumbs-section-li" class="breadcrumbs-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2.2 </font></font></span>
+                    <span id="breadcrumbs-section-title" class="breadcrumbs-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Створення прототипу ідеї</font></font></span>
+                  </a>
+                </li>
+                <li aria-level="3">
+                  <a id="breadcrumbs-topic" href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.2.1">
+                    <span id="breadcrumbs-topic-li" class="breadcrumbs-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2.2.1 </font></font></span>
+                    <span id="breadcrumbs-topic-title" class="breadcrumbs-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Що таке створення прототипу?</font></font></span>
+                  </a>
+                </li>
+                <li aria-level="4">
+                  <a id="breadcrumbs-page" href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.2.1.1">
+                    <span id="breadcrumbs-page-li" class="breadcrumbs-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2.2.1.1 </font></font></span>
+                    <span id="breadcrumbs-page-title" class="breadcrumbs-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Визначення створення прототипу</font></font></span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="page-menu">
+              <button type="button" id="page-menu-close-button" title="Закрити">
+                <span aria-hidden="true"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Закрити</font></font></span>
+              </button>
+            </div>
+          </div>
+          <div id="page-content" role="main" aria-live="polite"><iframe id="frame" title="сторінка 2.2.1.1" src="./1_files/2.2.1.1.html"></iframe></div>
+          <div id="page-footer">
+            <div id="page-slide-buttons"></div>
+            <div class="page-menu">
+              <button type="button" id="page-menu-transcript-button" title="запис"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">запис</font></font></button>
+              <button type="button" id="page-menu-bookmark-button" title="Закладка"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Закладка</font></font></button>
+              <button type="button" id="page-menu-previous-button" title="назад"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">назад</font></font></button>
+              <button type="button" id="page-menu-next-button" title="далі"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">далі</font></font></button>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-course-index" aria-hidden="true" aria-labelledby="menu-course-index" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">покажчик курсу</font></font></div>
+            <button type="button" class="overlay-close-button" title="Закрити">
+              <span aria-hidden="true"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Закрити</font></font></span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div id="course-index-buttons" role="menu">
+                <button type="button" class="index-button active" id="index-course" role="menuitem" title="покажчик курсу">
+                  <span class="index-button-icon"></span>
+                  <span class="index-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">покажчик курсу</font></font></span>
+                </button>
+                <button type="button" class="index-button" id="index-packet-tracer" role="menuitem" title="Список робіт в Packet Tracer">
+                  <span class="index-button-icon"></span>
+                  <span class="index-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Список робіт в Packet Tracer</font></font></span>
+                </button>
+                <button type="button" class="index-button" id="index-lab" role="menuitem" title="Список лабораторних робіт">
+                  <span class="index-button-icon"></span>
+                  <span class="index-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Список лабораторних робіт</font></font></span>
+                </button>
+                <button type="button" class="index-button" id="index-video" role="menuitem" title="список відеороликів">
+                  <span class="index-button-icon"></span>
+                  <span class="index-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">список відеороликів</font></font></span>
+                </button>
+              </div>
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="Прокручувати вгору" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокручувати вгору</font></font></button>
+                <button type="button" class="scroll-pane-down-button" title="Прокрутити вниз" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокрутити вниз</font></font></button>
+                <div class="scroll-pane-content" tabindex="-1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-recent-pages" aria-hidden="true" aria-labelledby="menu-recent-pages" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">недавні сторінки</font></font></div>
+            <button type="button" class="overlay-close-button" title="Закрити">
+              <span aria-hidden="true"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Закрити</font></font></span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="Прокручувати вгору" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокручувати вгору</font></font></button>
+                <button type="button" class="scroll-pane-down-button" title="Прокрутити вниз" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокрутити вниз</font></font></button>
+                <div class="scroll-pane-content" tabindex="-1"><ul class="items"><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.2.1.1" class="Page"><img class="item-thumb" src="./1_files/media_2.2.1.1_thumb.jpg" role="presentation" alt="" aria-hidden="true"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">сторінка 2.2.1.1</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Визначення створення прототипу</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.1.2.3" class="Page"><img class="item-thumb" src="./1_files/media_2.1.2.3_thumb.jpg" role="presentation" alt="" aria-hidden="true"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">сторінка 2.1.2.3</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Packet Tracer. </font><font style="vertical-align: inherit;">Миготіння світлодіодним індикатором з допомогою Blockly</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.1.2.2" class="Page"><img class="item-thumb" src="./1_files/media_2.1.2.2_thumb.jpg" role="presentation" alt="" aria-hidden="true"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">сторінка 2.1.2.2</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ігри Blockly</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.1.2.1" class="Page"><img class="item-thumb" src="./1_files/media_2.1.2.1_thumb.jpg" role="presentation" alt="" aria-hidden="true"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">сторінка 2.1.2.1</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Що таке Blockly?</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.1.1.2" class="Page"><img class="item-thumb" src="./1_files/media_2.1.1.2_thumb.jpg" role="presentation" alt="" aria-hidden="true"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">сторінка 2.1.1.2</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Блок-схеми</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.1.1.1" class="Page"><img class="item-thumb" src="./1_files/media_2.1.1.1_thumb.jpg" role="presentation" alt="" aria-hidden="true"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">сторінка 2.1.1.1</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Дотримуйтесь блок-схемі.</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.1.1.3" class="Page"><img class="item-thumb" src="./1_files/media_2.1.1.3_thumb.jpg" role="presentation" alt="" aria-hidden="true"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">сторінка 2.1.1.3</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Системне ПО, прикладні програми та мови програмування</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#2.0.1.1" class="Page"><img class="item-thumb" src="./1_files/media_2.0.1.1_thumb.jpg" role="presentation" alt="" aria-hidden="true"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">сторінка 2.0.1.1</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Глава 2. Всі навколо стає програмованим</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#1.3.1.1" class="Page"><img class="item-thumb" src="./1_files/media_1.3.1.1_thumb.jpg" role="presentation" alt="" aria-hidden="true"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">сторінка 1.3.1.1</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">огляд</font></font></div></a></li><li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#1.2.1.1" class="Page"><img class="item-thumb" src="./1_files/media_1.2.1.1_thumb.jpg" role="presentation" alt="" aria-hidden="true"><div class="item-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">сторінка 1.2.1.1</font></font></div><div class="item-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Що таке Інтернет речей?</font></font></div></a></li></ul></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-bookmarks" aria-hidden="true" aria-labelledby="menu-bookmarks" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Закладки</font></font></div>
+            <button type="button" class="overlay-close-button" title="Закрити">
+              <span aria-hidden="true"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Закрити</font></font></span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="Прокручувати вгору" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокручувати вгору</font></font></button>
+                <button type="button" class="scroll-pane-down-button" title="Прокрутити вниз" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокрутити вниз</font></font></button>
+                <div class="scroll-pane-content" tabindex="-1"><ul class="items"><li class="message"><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#" style="pointer-events: none; border: none; background-color: transparent;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Немає закладок.</font></font></a></li></ul></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-backgrounds" aria-hidden="true" aria-labelledby="menu-backgrounds" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">вибрати фон</font></font></div>
+            <button type="button" class="overlay-close-button" title="Закрити">
+              <span aria-hidden="true"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Закрити</font></font></span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="Прокручувати вгору" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокручувати вгору</font></font></button>
+                <button type="button" class="scroll-pane-down-button" title="Прокрутити вниз" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокрутити вниз</font></font></button>
+                <div class="scroll-pane-content" tabindex="-1"><ul class="backgrounds"><li><input type="image" data-ident="bg-0" src="./1_files/bg-0-S.jpg" alt="Фонове зображення 0" aria-label="Фоновое изображение 0"></li><li><input type="image" data-ident="bg-1" src="./1_files/bg-1-S.jpg" alt="Фонове зображення 1" aria-label="Фоновое изображение 1"></li><li><input type="image" data-ident="bg-2" src="./1_files/bg-2-S.jpg" alt="Фонове зображення 2" aria-label="Фоновое изображение 2"></li><li><input type="image" data-ident="bg-3" src="./1_files/bg-3-S.jpg" alt="Фонове зображення 3" aria-label="Фоновое изображение 3"></li><li><input type="image" data-ident="bg-4" src="./1_files/bg-4-S.jpg" alt="Фонове зображення 4" aria-label="Фоновое изображение 4"></li><li><input type="image" data-ident="bg-5" src="./1_files/bg-5-S.jpg" alt="Фонове зображення 5" aria-label="Фоновое изображение 5"></li><li><input type="image" data-ident="bg-6" src="./1_files/bg-6-S.jpg" alt="Фонове зображення 6" aria-label="Фоновое изображение 6"></li><li><input type="image" data-ident="bg-7" src="./1_files/bg-7-S.jpg" alt="Фонове зображення 7" aria-label="Фоновое изображение 7"></li><li><input type="image" data-ident="bg-8" src="./1_files/bg-8-S.jpg" alt="Фонове зображення 8" aria-label="Фоновое изображение 8"></li><li><input type="image" data-ident="bg-9" src="./1_files/bg-9-S.jpg" alt="Фонове зображення 9" aria-label="Фоновое изображение 9"></li><li><input type="image" data-ident="bg-10" src="./1_files/bg-10-S.jpg" alt="Фонове зображення 10" aria-label="Фоновое изображение 10"></li><li><input type="image" data-ident="bg-11" src="./1_files/bg-11-S.jpg" alt="Фонове зображення 11" aria-label="Фоновое изображение 11"></li></ul></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-search" aria-hidden="true" aria-labelledby="menu-search" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Пошук</font></font></div>
+            <button type="button" class="overlay-close-button" title="Закрити">
+              <span aria-hidden="true"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Закрити</font></font></span>
+            </button>
+            <input id="search-input" title="Пошук" aria-label="Поиск" type="search">
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="Прокручувати вгору" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокручувати вгору</font></font></button>
+                <button type="button" class="scroll-pane-down-button" title="Прокрутити вниз" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокрутити вниз</font></font></button>
+                <div class="scroll-pane-content" tabindex="-1"><ul class="items"><li class="message"><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#" style="pointer-events: none; border: none; background-color: transparent;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Задайте критерії пошуку ...</font></font></a></li></ul></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-languages" aria-hidden="true" aria-labelledby="menu-languages" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">мови</font></font></div>
+            <button type="button" class="overlay-close-button" title="Закрити">
+              <span aria-hidden="true"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Закрити</font></font></span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="Прокручувати вгору" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокручувати вгору</font></font></button>
+                <button type="button" class="scroll-pane-down-button" title="Прокрутити вниз" aria-hidden="true" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прокрутити вниз</font></font></button>
+                <div class="scroll-pane-content" tabindex="-1">
+                  <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Виберіть мову курсу:</font></font></p>
+                  <ul>
+                    <li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#" data-lang="ar" lang="ar" title="العربية (Arabic)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">العربية</font></font></a></li>
+                    <li></li>
+                    <li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#" data-lang="en" lang="en" title="English (English)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">English</font></font></a></li>
+                    <li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#" data-lang="es" lang="es" title="Español (Spanish)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Español</font></font></a></li>
+                    <li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#" data-lang="fr" lang="fr" title="Français (French)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Français</font></font></a></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#" data-lang="pt" lang="pt" title="Português do Brasil (Brazilian Portuguese)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Português do Brasil</font></font></a></li>
+                    <li></li>
+                    <li></li>
+                    <li><a href="https://static-course-assets.s3.amazonaws.com/I2IoT20/ru/index.html#" data-lang="ru" lang="ru" title="Русский (Russian)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Русский</font></font></a></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-help" aria-hidden="true" aria-labelledby="menu-help" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Довідка</font></font></div>
+            <button type="button" class="overlay-close-button" title="Закрити">
+              <span aria-hidden="true"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Закрити</font></font></span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div id="help-buttons" role="menu">
+                <button type="button" class="help-button" id="help-1" role="menuitem" title="Вступ">
+                  <span class="help-button-icon"></span>
+                  <span class="help-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вступ</font></font></span>
+                </button>
+                <button type="button" class="help-button" id="help-2" role="menuitem" title="Навігація по курсу">
+                  <span class="help-button-icon"></span>
+                  <span class="help-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Навігація по курсу</font></font></span>
+                </button>
+                <button type="button" class="help-button" id="help-3" role="menuitem" title="Тестування і сертифікати">
+                  <span class="help-button-icon"></span>
+                  <span class="help-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Тестування і сертифікати</font></font></span>
+                </button>
+                <button type="button" class="help-button" id="help-4" role="menuitem" title="Packet Tracer.  Навчальний посібник з установки програми">
+                  <span class="help-button-icon"></span>
+                  <span class="help-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Packet Tracer. </font><font style="vertical-align: inherit;">Навчальний посібник з установки програми</font></font></span>
+                </button>
+                
+                <div class="help-button" role="menuitem" title="Ми на Facebook">
+                  <a href="http://www.facebook.com/cisconetworkingacademy" target="facebook-netacad">
+                    <div class="help-facebook-icon"></div>
+                    <div class="help-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ми на Facebook</font></font></div>
+                  </a>
+                </div>
+              </div>
+              <div id="help-content" tabindex="-1"></div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-developer" aria-hidden="true" aria-labelledby="menu-developer" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Developer Tools</font></font></div>
+            <button type="button" class="overlay-close-button" title="Закрити">
+              <span aria-hidden="true"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Закрити</font></font></span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <ul class="items">
+                <li><button id="clear-local-storage-button"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Clear Local Storage</font></font></button></li>
+                <li><button id="clear-background-button"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Clear Background</font></font></button></li>
+                <li>
+                  <button id="enable-pseudolocalization-button"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Enable Pseudolocalization</font></font></button>
+                  <button id="disable-pseudolocalization-button" style="display: none;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Disable Pseudolocalization</font></font></button>
+                </li>
+                <li><button id="disable-developer-tools-button"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Disable Developer Tools</font></font></button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="menu">
+        <div class="menu-buttons">
+          <button type="button" class="menu-button" id="menu-developer" title="Developer Tools" aria-haspopup="true" style="display: none;">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Developer Tools</font></font></span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" id="menu-recent-pages" title="недавні сторінки" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">недавні сторінки</font></font></span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" id="menu-bookmarks" title="Закладки" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Закладки</font></font></span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" id="menu-course-index" title="покажчик курсу" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">покажчик курсу</font></font></span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" id="menu-search" title="Пошук" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Пошук</font></font></span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" id="menu-languages" title="мови" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">мови</font></font></span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" id="menu-backgrounds" title="вибрати фон" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">вибрати фон</font></font></span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" id="menu-help" title="Довідка" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Довідка</font></font></span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" id="menu-return" title="Повернутися в клас">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Повернутися в клас</font></font></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="./1_files/translate_24dp.png" width="20" height="20" alt="Google Переводчик"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Исходный текст</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Предложить лучший вариант перевода</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+  
+
+<div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
